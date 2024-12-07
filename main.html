@@ -10,21 +10,46 @@
 <body>
 	<!-- the entire body must be written by student -->
 	
-		<h1>Flowers</h1>
-	<nav>
-		<a href = "#image">Images</a>
-		<a href = "#content">Content</a>
-		<a href = "#help">Help</a></li>
-	</nav>
-	  <img src = "https://img.freepik.com/premium-photo/collage-different-flowers-including-one-many-colors_1308175-107930.jpg" alt = "flowers image">	
-		<p>In the image there are different types of flowers.</p>
-		  <h2>Content</h2>
-			<ul type="square">
-				<li>Rose</li>
-				<li>Sunflower</li>
-				<Li>Jasmine</Li>
-			</ul>
-		
+		<!DOCTYPE html>
+
+    <!-- Main Heading -->
+    <header>
+        <h1 role="heading" aria-level="1">Karanam Swathi's Portfolio</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <img role="img" src="profile.jpg" alt="A photo of Karanam Swathi smiling" class="profile-img">
+        <p>
+            Hi, I'm Karanam Swathi, a passionate developer with expertise in creating accessible and user-friendly web applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading" aria-level="2">Projects</h2>
+        <ul role="list">
+            <li role="listitem">E-commerce Website</li>
+            <li role="listitem">Portfolio Website</li>
+            <li role="listitem">To-Do List Application</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading" aria-level="2">Contact Me</h2>
+        <p>Feel free to reach out via email at <a href="mailto:swathi@example.com">swathi@example.com</a>.</p>
+    </section>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
